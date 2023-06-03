@@ -1,7 +1,13 @@
+import java.util.Objects;
+
 public class Product {
     protected int id;
     protected String title;
     protected int price;
+
+    public int getId() {
+        return id;
+    }
 
     public Product(int id, String title, int price) {
         this.id = id;
